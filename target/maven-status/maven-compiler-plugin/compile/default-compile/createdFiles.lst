@@ -1,1 +1,3 @@
+com\turkcell\core\security\BaseJwtFilter.class
 com\turkcell\core\security\BaseJwtService.class
+com\turkcell\core\annotations\EnableSecurity.class
