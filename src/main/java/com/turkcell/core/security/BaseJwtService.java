@@ -30,7 +30,6 @@ public class BaseJwtService
             .compact();
     return token;
   }
-
   public Boolean validateToken(String token)
   {
     return getTokenClaims(token).getExpiration().after(new Date()); // Kendi ürettiğim token mı?
