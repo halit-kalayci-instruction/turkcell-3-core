@@ -19,7 +19,10 @@ import java.util.List;
 public class BaseJwtFilter extends OncePerRequestFilter
 {
   private final BaseJwtService jwtService;
+  // Github Workflows
+  // Docker & Github Repository
 
+  // 19:00
   public BaseJwtFilter(BaseJwtService jwtService) {
     this.jwtService = jwtService;
   }

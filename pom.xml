@@ -12,7 +12,7 @@
 
     <groupId>com.turkcell</groupId>
     <artifactId>tcell.core3</artifactId>
-    <version>2.0.3</version>
+    <version>2.0.5</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -49,4 +49,12 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>Github Package Center</name>
+            <url>https://maven.pkg.github.com/halit-kalayci-instruction/turkcell-3-core</url>
+        </repository>
+    </distributionManagement>
 </project>
+
