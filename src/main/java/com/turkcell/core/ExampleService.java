@@ -5,4 +5,8 @@ public class ExampleService {
   {
     return "Hello";
   }
+  public static int number()
+  {
+    return 10;
+  }
 }
