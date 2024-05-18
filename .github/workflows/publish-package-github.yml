@@ -1,5 +1,8 @@
 name: Publish core package to Github package repository.
-on: push
+on:
+  push:
+    branches:
+      - release
 
 jobs:
   publish:
